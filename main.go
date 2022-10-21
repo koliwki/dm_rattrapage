@@ -35,6 +35,8 @@ func main() {
 		Ingredient2,
 	}
 	Melange(Ingredients)
+	prout := []int{1}
+	Poubelle(Ingredients, prout)
 
 }
 
